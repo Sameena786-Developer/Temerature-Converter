@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135,#00c6ff,#0072ff);
+
+}
+
+
+#container{
+    width: 600px;
+    height: 400px;
+    background-color: darkslategray;
+    border: 3px solid burlywood;
+    color: azure;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 20px auto;
+    padding: 6px;
+    box-shadow: 5px 5px snow;  
+    justify-content: center; 
+}
+#convertBtn{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 10px;
+}
+#fromTemp{
+    width: 200px;
+    height: 40px;
+    background-color: bisque;
+    color: black;
+    border-radius: 40px;
+}
+#toTemp{
+    width: 200px;
+    height: 40px;
+    background-color: bisque;
+    color: black;
+    border-radius: 40px;
+}
+#result{
+  background-color: #eaf4ff;
+  color: #0072ff;
+  font-weight: bold;
+  border: 2px solid #0072ff;
+}
